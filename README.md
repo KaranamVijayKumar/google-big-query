@@ -19,5 +19,17 @@ This repo is created to demonstrate Google Big Query as part of our workshop pre
 - [Demo](https://karanamvijaykumar.github.io/google-big-query/)
 - [PowerPointPresenatation](https://github.com/KaranamVijayKumar/google-big-query/blob/master/Google%20BigQuery.pptx)
 
+# Demo Instructions
+
+## Agenda
+1. Query a public dataset
+2. Create a custom table
+3. Load data into a table
+4. Query a table
+
+## Explore a BigQuery Public Dataset
+
+
+
 
 
