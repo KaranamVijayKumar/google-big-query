@@ -10,6 +10,7 @@ This repo is created to demonstrate Google Big Query as part of our workshop pre
 
 - Vijay Kumar Karanam (S534627@nwmissori.edu)
 - Prajakt Uttamrao Khawase (S534570@nwmissouri.edu)
-- 
+- Harsha Vardhan Reddy Nallavolu (S534688@nwmissouri.edu)
+- Lavanya Reddy Uppula (S534574@nwmissouri.edu)
 
 
