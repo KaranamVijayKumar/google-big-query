@@ -33,7 +33,7 @@ This repo is created to demonstrate Google Big Query as part of our workshop pre
 - In the left pane, click ADD DATA > Explore public datasets.
 - In the searchbox, type USA Names then Enter. 
 - Click on the USA Names tile you see in the search results and view Dataset.
-- Copy and paste below query into Query Editor
+- Copy and paste below query into Query Editor and run it.
 
 ```SELECT
   name, gender,
@@ -46,6 +46,9 @@ ORDER BY
   total DESC
 LIMIT
   10```
+
+## Create a custom table
+
 
 
 
