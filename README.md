@@ -47,21 +47,22 @@ ORDER BY
 LIMIT
   10
 
-## Create a custom table
+## Create a custom table.
 
 - Download the file [yob2014.txt](https://github.com/KaranamVijayKumar/google-big-query/blob/master/yob2014.txt).The file is a comma-separated value (CSV) file with the following three columns: name, sex (M or F), and number of children with that name.
 - Create a dataset to hold your table, add data to your project.
 - For Dataset ID, enter babynames, For Data location, choose United States (US)
 - For Default table expiration, leave the default value and create dataset.
 
-## Load the data into a new table
+## Load the data into a new table.
 
+- Click babynames found in the left pane in the Resources section, and then click Create table.
+- For Source, choose Upload from the Create table from: dropdown menu.
+- For Select file, click Browse, navigate to the yob2014.txt downloaded file and click Open.
+- For File format, choose CSV from the dropdown menu.
+- For Table name, enter names_2014.
+- In the Schema section, click the Edit as text toggle and paste the following schema definition in the text box and click create table.
 
-
-
-
-
-
-
+- name:string,gender:string,count:integer
 
 
