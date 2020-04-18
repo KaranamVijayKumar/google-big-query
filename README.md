@@ -8,10 +8,10 @@ This repo is created to demonstrate Google Big Query as part of our workshop pre
 
 # Team Members
 
-- Vijay Kumar Karanam (S534627@nwmissori.edu)
-- Prajakt Uttamrao Khawase (S534570@nwmissouri.edu)
-- Harsha Vardhan Reddy Nallavolu (S534688@nwmissouri.edu)
-- Lavanya Reddy Uppula (S534574@nwmissouri.edu)
+- [Vijay Kumar Karanam](https://github.com/KaranamVijayKumar/)
+- [Prajakt Uttamrao Khawase](https://github.com/Prajakt-Khawase)
+- [Harsha Vardhan Reddy Nallavolu](https://github.com/harsha4824)
+- [Lavanya Reddy Uppula](https://github.com/reddylavanya)
 
 # Links
 
