@@ -35,7 +35,7 @@ This repo is created to demonstrate Google Big Query as part of our workshop pre
 - Click on the USA Names tile you see in the search results and view Dataset.
 - Copy and paste below query into Query Editor and run it.
 
-```SELECT
+SELECT
   name, gender,
   SUM(number) AS total
 FROM
@@ -45,10 +45,11 @@ GROUP BY
 ORDER BY
   total DESC
 LIMIT
-  10```
+  10
 
 ## Create a custom table
 
+- Download the file [yob2014.txt]() 
 
 
 
