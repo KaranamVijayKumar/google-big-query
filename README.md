@@ -23,8 +23,8 @@ This repo is created to demonstrate Google Big Query as part of our workshop pre
 # Agenda
 1. Query a public dataset
 2. Create a custom table
-3. Load data into a table
-4. Query a table
+3. Load data into that custom table
+4. Query the custom table you created 
 
 # Explore a BigQuery Public Dataset and Query it.
 
