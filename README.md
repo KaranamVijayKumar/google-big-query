@@ -65,4 +65,19 @@ LIMIT
 
 - name:string,gender:string,count:integer
 
+## Query the custom table.
+
+- In the Query editor, click Compose new query.
+- Copy and paste the following query into the Query editor. This query retrieves the top 5 baby names for US males in 2014 and click run.
+
+SELECT
+ name, count
+FROM
+ `babynames.names_2014`
+WHERE
+ gender = 'M'
+ORDER BY count DESC LIMIT 5
+
+#### Congratulations! You queried a public dataset, then created a custom table, loaded data into it, and then ran a query against that table.
+
 
