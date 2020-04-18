@@ -27,7 +27,27 @@ This repo is created to demonstrate Google Big Query as part of our workshop pre
 3. Load data into a table
 4. Query a table
 
-## Explore a BigQuery Public Dataset
+## Explore a BigQuery Public Dataset and Query it.
+
+- In the Google Cloud Console, select Navigation menu > BigQuery:
+- In the left pane, click ADD DATA > Explore public datasets.
+- In the searchbox, type USA Names then Enter. 
+- Click on the USA Names tile you see in the search results and view Dataset.
+- Copy and paste below query into Query Editor
+
+```SELECT
+  name, gender,
+  SUM(number) AS total
+FROM
+  `bigquery-public-data.usa_names.usa_1910_2013`
+GROUP BY
+  name, gender
+ORDER BY
+  total DESC
+LIMIT
+  10```
+
+
 
 
 
