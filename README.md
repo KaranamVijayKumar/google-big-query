@@ -21,6 +21,15 @@ This repo is created to demonstrate Google Big Query as part of our workshop pre
 - [A Deep Dive Into Google BigQuery Architecture](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
 - [Columnar database](https://www.stitchdata.com/columnardatabase/)
 
+# Columnar format and Advantages
+- A columnar database is a database management system (DBMS) that stores data in columns instead of rows. 
+
+- The goal of a columnar database is to efficiently write and read data to and from hard disk storage in order to speed up the time it     takes to return a query.  
+
+- In a columnar database, all the column 1 values are physically together, followed by all the column 2 values, etc. The data is stored   in record order, so the 100th entry for column 1 and the 100th entry for column 2 belong to the same input record. This allows           individual data elements, such as customer name for instance, to be accessed in columns as a group, rather than individually row-by-     row. 
+
+- One of the main benefits of a columnar database is that data can be highly compressed. The compression permits columnar operations —     like MIN, MAX, SUM, COUNT and AVG— to be performed very rapidly.  Another benefit is that because a column-based DBMSs is self-         indexing, it uses less disk space than a relational database management system (RDBMS) containing the same data. 
+
 # Demo Instructions
 # Agenda
 1. Query a public dataset.
