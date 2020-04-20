@@ -18,6 +18,8 @@ This repo is created to demonstrate Google Big Query as part of our workshop pre
 - [Source](https://github.com/KaranamVijayKumar/google-big-query)
 - [Demo](https://karanamvijaykumar.github.io/google-big-query/)
 - [PowerPointPresenatation](https://github.com/KaranamVijayKumar/google-big-query/blob/master/Google%20BigQuery.pptx)
+- [A Deep Dive Into Google BigQuery Architecture](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
+- [Columnar database](https://www.stitchdata.com/columnardatabase/)
 
 # Demo Instructions
 # Agenda
